@@ -2,6 +2,8 @@ package com.ai.study.vo;
 
 import lombok.*;
 
+import java.util.List;
+
 /**
  * 用户实体类，实现了 UserDetails 接口
  */
@@ -92,5 +94,6 @@ public class User {
      */
 
     private String mfaKey;
+    private List<String> roles;
 
 }
